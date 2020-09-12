@@ -1,0 +1,9 @@
+#!/bin/bash
+case $1 in
+    "js")
+        node js/js_threads.js;;
+    "python")
+        python3 python/python_threadas.py;;
+    *)
+        echo "unknown parameter"
+esac
